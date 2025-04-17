@@ -1,0 +1,24 @@
+Diffrence between document.write() and	innerText
+
+document.write:
+It is a method
+Inject document in the web page
+Used in demo and old script
+
+innerText:
+peoperty
+can change an elements text and data
+It is modern and executable in DOM Manipulation 
+
+Difference between window.alert and alert
+
+There is no functional difference between window.alert() and alert().
+In JavaScript, window is the global object in the browser.
+All global functions like alert(), console.log(), setTimeout(), etc. are actually properties of window
+
+
+JavaScript Display Possibilities
+innerHTML
+document.write()
+window.alert()
+console.log

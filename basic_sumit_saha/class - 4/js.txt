@@ -1,0 +1,3 @@
+Javascript Value
+1. fixed Value
+2. variable values

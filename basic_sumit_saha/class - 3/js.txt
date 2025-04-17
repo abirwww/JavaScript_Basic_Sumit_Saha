@@ -1,0 +1,4 @@
+Semicolons
+Semicolons separate Javascript statements
+statement ends with Semicolons
+Javascript Ignors multispaces, You can add white space to your script to make it more readable.
