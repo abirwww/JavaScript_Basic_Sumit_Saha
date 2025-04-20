@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    // Functional Programming
+
+    <p id="demo"></p>
+    <script>
+function sleep(name, time) {
+    console.log(name + " is sleeping " + time);
+    
+}
+
+sleep("Jashim", "10 PM");
+sleep("Rahim", "11 PM");
+sleep("Karim", "12 PM");
+
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(77);
+
+    </script>
+</body>
+</html>
