@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="demo"></p>
+    <script>
+
+        const car = {
+            name: "Fiat",
+            model: 500,
+            weight: "850kg",
+            color: "white",
+            start: function() {
+                this.drive();
+                console.log("car has started");
+            },
+            drive: function() {
+                console.log("car is driving");
+            },
+        };
+        console.log(car.weight);
+        console.log(car.model);
+        console.log(car.start);
+
+        const person = {
+            firstName: "Jhon",
+            lastName: "Doe",
+            id      : 5566,
+            fullName    : function(){
+                return this.firstName + " " + this.lastName;
+            }
+        };
+
+        document.getElementById("demo").innerHTML = person.fullName();
+
+        
+        
+    </script>
+</body>
+</html>
