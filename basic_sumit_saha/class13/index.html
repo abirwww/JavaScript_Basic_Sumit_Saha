@@ -9,7 +9,7 @@
     
 <p id="demo"></p>
     <script>
-
+// In object everybody take const always 
         const car = {
             name: "Fiat",
             model: 500,
@@ -25,7 +25,10 @@
         };
         console.log(car.weight);
         console.log(car.model);
-        console.log(car.start);
+        console.log(car.start());
+        console.log(car["model"]);
+        car.start();        
+
 
         const person = {
             firstName: "Jhon",
@@ -38,6 +41,11 @@
 
         document.getElementById("demo").innerHTML = person.fullName();
 
+    
+        let x = 5; 
+        let y = new Number(6);
+        console.log(typeof x); // number
+        console.log(typeof y); // object
         
         
     </script>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="demo"></p>
+    <script>
+        let str = "Apple, Banana, Kiwi";
+        let banana = str.slice(7, 13);
+        console.log(banana);
+        let banana2 = str.slice(-12, -6);
+        console.log(banana2);
+        let banana3 = str.slice(7);
+        console.log(banana3);
+
+        let str2 = "I like pakistan";
+        let str3 = str.replace("pakistan", "bangladesh");
+        console.log(str2);
+        console.log(str3);
+
+        let text4 = "Hello";
+        let text5 = "World";
+        let text6 = text4.concat(" ",text5);
+        document.getElementById("demo").innerHTML = text6;
+        console.log(text6);
+        
+        let text7 = "5";
+        let a = text7.padStart(4,0); //0005
+        console.log(a);
+        
+
+        let text8 = "5";
+        let b = text8.padEnd(4,0);  //5000
+        console.log(b);
+        
+        
+    </script>
+</body>
+</html>
